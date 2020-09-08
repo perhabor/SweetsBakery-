@@ -61,9 +61,12 @@ p {
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
 
-  border-radius: 10px;
 
 */
+
+img {
+    border-radius: 10px;
+}
 
 .content-row {
     display: flex;
@@ -108,7 +111,7 @@ p {
     margin-top: 20px;
 }
 
-s .contact-section {
+.contact-section {
     border-top: 1px dashed black;
     padding: 20px 0;
 }
@@ -124,8 +127,11 @@ address {
 
 
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
-   line-height: 2;
 */
+
+address {
+    line-height: 2;
+}
 
 footer {
     width: 100%;
@@ -152,12 +158,12 @@ footer nav {
 /*======= Create a selector for the anchor tag in the footer to have the following styles:
   margin: 10px;
   color: black;
-  text-decoration: underline;
-*/
+  */
 
 a {
     margin: 10px;
     color: black;
+    text-decoration: underline;
 }
 
 footer nav a:first-child {
